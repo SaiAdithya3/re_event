@@ -1,7 +1,6 @@
 
 # Project Name: re:Event
 
-##  T.Bala Shiva (12108042) and K.Sai Adithya (12107691)
 
  Frontend deployed link : https://rvent.vercel.app/
  <br>
