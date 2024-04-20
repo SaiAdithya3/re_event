@@ -11,7 +11,7 @@ import jwt from 'jsonwebtoken';
 
 const app = express();
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://re-event-backend.onrender.com','https://rvent.vercel.app'],
+    origin: ['http://localhost:5173', 'https://re-event-backend.onrender.com','https://rvent.vercel.app'],
     credentials: true,
 }));
 app.use(express.json());

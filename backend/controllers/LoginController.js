@@ -14,7 +14,7 @@ const sendVerificationEmail = async (email, otp) => {
       service: 'gmail',
       auth: {
         user: 'top10world1210@gmail.com',
-        pass: 'izgm dfzw vxri uajf',
+        pass: 'atfz lzhz faeu qzoo',
       },
     });
 
