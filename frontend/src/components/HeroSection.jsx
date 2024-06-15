@@ -11,7 +11,7 @@ const HeroSection = () => {
   const token = Cookies.get("user");
   return (
     <>
-      <div className="w-full flex items-center bg-gradient-to-r from-zinc-900 to-zinc-950 justify-center">
+      <div className="w-full flex items-center bg-gradient-to-r from-zinc-950 to-zinc-800 justify-center">
 
         <div className={
           `w-full max-w-[1600px] items-center lg:py-24 text-white justify-center px-8 lg:px-20 gap-5 md:gap-0 py-10 flex flex-col `}>
@@ -65,7 +65,7 @@ const HeroSection = () => {
 
 
 
-          <div className="w-full flex flex-col md:flex-row rounded-[3rem] gap-5 my-12">
+          {/* <div className="w-full flex flex-col md:flex-row rounded-[3rem] gap-5 my-12">
             <motion.div className="w-full z-0 bg-zinc-800 border flex border-zinc-400/40 relative rounded-3xl group shadow-xl shadow-zinc-600/20 text-white"
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -104,7 +104,7 @@ const HeroSection = () => {
               transition={{ duration: 1.4 }}>
               okayyyy
             </motion.div>
-          </div>
+          </div> */}
         </div>
       </div>
 

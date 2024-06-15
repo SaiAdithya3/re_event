@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import HeroSection from "../components/HeroSection";
+import Details from "../components/Details";
 import LogSign from "../components/Login/LogSign";
 import { useMainDashContext } from "../context/AppContext";
 import Cookies from "js-cookie";
@@ -10,7 +11,7 @@ const Home = () => {
   const { openlogin, setOpenlogin } = useMainDashContext();
   return (
     <>
-      <div className="w-full flex items-center  justify-center">
+      <div className="w-full flex items-center flex-col justify-center">
         {cookie ? (
           <></>
         ) : (
@@ -21,6 +22,7 @@ const Home = () => {
         )}
         {/* {openlogin && <LogSign />} */}
         <HeroSection />
+        <Details />
       </div>
     </>
   );
