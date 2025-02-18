@@ -13,13 +13,13 @@ const sendVerificationEmail = async (email, otp) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'top10world1210@gmail.com',
-        pass: 'vvqe hhxq mlkr uxvc',
+        user: 'saichaitanyakotla@gmail.com',
+        pass: 'dsno njsl feuf olbw',
       },
     });
 
     const mailOptions = {
-      from: 'top10world1210@gmail.com',
+      from: 'saichaitanyakotla@gmail.com',
       to: email,
       subject: 'Passwordless Login OTP',
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
